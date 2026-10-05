@@ -1,15 +1,7 @@
 #principal {
-     position: fixed; 
-     top: 0; 
-    margin-top: 70px;
-     width: 100%;
+    position: fixed; 
+    top: 0; 
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgb(196, 112, 196);
 }
-.flex{
-    display: flex;
-    background-color: lightblue;
-    position: sticky;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    border: 1px black
-} 
