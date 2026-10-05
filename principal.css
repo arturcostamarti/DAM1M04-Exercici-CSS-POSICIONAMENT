@@ -1,13 +1,15 @@
 #principal {
-    background-color: aquamarine;
-    position: sticky;
-    top: 25px;
+     position: fixed; 
+     top: 0; 
+    margin-top: 70px;
+     width: 100%;
 }
 .flex{
     display: flex;
-    justify-content: space-around;
     background-color: lightblue;
     position: sticky;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: flex-start;
+    border: 1px black
 } 
