@@ -1,0 +1,13 @@
+#principal {
+    background-color: aquamarine;
+    position: sticky;
+    top: 25px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    position: sticky;
+    flex-direction: column;
+    align-items: flex-end;
+} 
