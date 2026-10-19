@@ -1,10 +1,31 @@
 #principal {
-    position: fixed; 
-    top: 0; 
-    margin-top: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
     width: 100%;
-    background-color: rgb(196, 112, 196);
+    height: 70px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
     align-items: center;
+    z-index: 1000;
     
-
+}
+#principal > p {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 760){
+    body{
+        
+        font-size: 2em;
+    }
 }
