@@ -1,28 +1,57 @@
-#principal {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #52ad9c, #84a5bd, #bfe6ff);
+}
+
+#principal {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 70px;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px); 
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    display: flex;
-    align-items: center;
     z-index: 1000;
-    
+    padding: 5px 20px;
+    background: rgba(173, 224, 255, 0.25);
+    backdrop-filter: blur(12px) saturate(160%);
+    -webkit-backdrop-filter: blur(12px) saturate(160%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+    box-shadow: 0 4px 20px rgba(0, 120, 200, 0.25),
+                inset 0 1px 0 rgba(255, 255, 255, 0.6);
 }
-#principal > p {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
+
+#principal p {
+    margin: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
 }
+
+#principal a {
+    flex: 1;                /* cada enlace ocupa el mismo espacio */
+    text-align: center;
+    color: #eaf7ff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 18px 0;        /* da altura al botón */
+    border-radius: 0;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+
+h1 {
+    color: white;
+}
+img  {
+    width: 690px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.8))
+            drop-shadow(0 0 15px rgba(0, 140, 255, 0.7));
+
+
+}
+
+
 @media (max-width: 760){
     body{
         
