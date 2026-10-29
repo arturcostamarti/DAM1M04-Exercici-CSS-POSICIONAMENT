@@ -26,7 +26,7 @@ body {
 }
 
 #principal a {
-    flex: 1;                /* cada enlace ocupa el mismo espacio */
+    flex: 1;                
     text-align: center;
     color: #eaf7ff;
     text-decoration: none;
@@ -38,7 +38,9 @@ body {
 
 
 h1 {
-    color: white;
+    color: white;urminu
+
+
 }
 img {
     border-radius: 8px;
@@ -84,7 +86,7 @@ img.img1{
   text-transform: uppercase;
 }
 
-.cards-grid {
+.cards-flex {
   display: flex;
   gap: 20px;
 }
